@@ -886,8 +886,8 @@ hi! link NERDTreeToggleOff GruvboxRed
 " }}}
 " Vim Multiple Cursors: {{{
 
-call s:HL('multiple_cursors_cursor', s:none, s:none, s:inverse)
-call s:HL('multiple_cursors_visual', s:none, s:bg2)
+"call s:HL('multiple_cursors_cursor', s:none, s:none, s:inverse)
+"call s:HL('multiple_cursors_visual', s:none, s:bg2)
 
 " }}}
 " coc.nvim: {{{
@@ -1329,12 +1329,19 @@ hi! link scalaInterpolation GruvboxAqua
 
 call s:HL('markdownItalic', s:fg3, s:none, s:italic)
 
-hi! link markdownH1 GruvboxGreenBold
-hi! link markdownH2 GruvboxGreenBold
-hi! link markdownH3 GruvboxYellowBold
-hi! link markdownH4 GruvboxYellowBold
-hi! link markdownH5 GruvboxYellow
-hi! link markdownH6 GruvboxYellow
+"hi! link markdownH1 GruvboxRedBold
+"hi! link markdownH2 GruvboxGreenBold
+"hi! link markdownH3 GruvboxYellowBold
+"hi! link markdownH4 GruvboxYellow
+"hi! link markdownH5 GruvboxBlueBold
+"hi! link markdownH6 GruvboxBlue
+hi! link htmlH1 GruvboxRedBold
+hi! link htmlH2 GruvboxGreenBold
+hi! link htmlH3 GruvboxYellowBold
+hi! link htmlH4 GruvboxBlueBold
+hi! link htmlH5 GruvboxYellow
+hi! link htmlH6 GruvboxBlue
+
 
 hi! link markdownCode GruvboxAqua
 hi! link markdownCodeBlock GruvboxAqua
