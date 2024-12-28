@@ -556,13 +556,13 @@ call s:HL('FoldColumn', s:gray, s:bg1)
 " Cursor: {{{
 
 " Character under cursor
-call s:HL('Cursor', s:none, s:none, s:inverse)
+"call s:HL('Cursor', s:none, s:none, s:inverse)
 " Visual mode cursor, selection
-hi! link vCursor Cursor
+"hi! link vCursor Cursor
 " Input moder cursor
-hi! link iCursor Cursor
+"hi! link iCursor Cursor
 " Language mapping cursor
-hi! link lCursor Cursor
+"hi! link lCursor Cursor
 
 " }}}
 " Syntax Highlighting: {{{
